@@ -11,17 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: SizedBox(
-          height: double.infinity,
+        body: SafeArea(
           child: Column(
-            // 주축 정렬 지정
-            mainAxisAlignment: MainAxisAlignment.center,
-
-            // 반대축 정렬 지정
-            crossAxisAlignment: CrossAxisAlignment.center,
-
             children: [
-              Expanded(child: Container(color: Colors.blue)),
+              Expanded(flex: 3, child: Container(color: Colors.blue)),
               Expanded(child: Container(color: Colors.red)),
             ],
           ),

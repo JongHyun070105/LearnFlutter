@@ -11,16 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: SizedBox(
-          width: double.infinity,
-          height: double.infinity,
+        body: SafeArea(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              FloatingActionButton(
-                onPressed: () {},
-                child: Icon(Icons.fmd_good),
-              ),
+              Flexible(flex: 3, child: Container(color: Colors.blue)),
+              Flexible(flex: 1, child: Container(color: Colors.red)),
             ],
           ),
         ),
