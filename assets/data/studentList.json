@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Park Jong Hyun",
+      "age": 19
+    },
+    {
+      "id": 2,
+      "name": "Ju Si Woo",
+      "age": 19
+    },
+    {
+      "id": 3,
+      "name": "Park Tae Young",
+      "age": 19
+    }
+  ]
+}
