@@ -47,7 +47,7 @@ class _TestViewState extends State<TestView> {
             gradient: RadialGradient(
               center: Alignment.center,
               colors: [
-                Colors.blue[100] as Color,
+                Colors.blue.shade100,
                 Colors.blue[300] as Color,
                 Colors.blue[500] as Color,
               ],
